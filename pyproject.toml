@@ -2,11 +2,21 @@
 [project]
 name = "comp0035-tutorials"
 version = "2025.0.1"
+# Tells setuptools that the following packages need to be installed for this project. Version numbers can be specified, the following will just install the latest version.
+dependencies = [
+    "pandas",
+    "matplotlib",
+    "pylint",
+    "flake8",
+    "pytest",
+    "pytest-cov"
+]
 
 # Most students will use setuptools, though poetry is also an option
 [build-system]
 requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
+
 
 # Setuptools configuration see https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#setuptools-specific-configuration
 # Not strictly required as default 'src' is automatically recognised by setuptools
