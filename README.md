@@ -16,7 +16,8 @@ The `docs` folder contains the activity instructions for each week.
 The `src` package contains any starter code for each week. You can also use this package to store your own code
 that you create during the activities.
 
-One solution to the week's activities will be added to the [tutor_solution repository](). Other solutions will be possible, and some may be better than the solution offered, so don't feel
+One solution to the week's activities will be added to the [tutor_solution repository](). Other solutions will be
+possible, and some may be better than the solution offered, so don't feel
 your code has to match the tutors code!
 
 ## List of activity instructions
@@ -24,17 +25,36 @@ your code has to match the tutors code!
 This will be updated each week with the activities for that week.
 
 ### Week 1 Source code control, environment, structure
+
 ### Week 2 Pandas to describe, explore and prepare a dataset
+
 ### Week 3 Database design; sqlite3
+
 ### Week 4 Database to Python class: ORM
+
 ### Week 5 Code quality: linting, docstrings, PEP8/257, use of functions.
+
 ### Week 6 Requirements; interface design
+
 ### Week 7 Application design
+
 ### Week 8 Classes; error handling
+
 ### Week 9 Unit testing, CI and coverage
 
 ### Week 10 No new activities
+
 Tutorial reserved for final coursework support
 
-## Data files
+## Data
 
+Most activities use paralympics data that was compiled from
+the [IPC website](https://www.paralympic.org/paralympic-games).
+
+The data is duplicated in some instances in `src/data` and in `src/starter/resources`. This is for teaching purposes for
+an activity that explains different methods to import the data in the project depending on its location within or
+outside the package's directory structure.
+
+### External examples using similar paralympics data
+
+[Onyx data challenge 2024](https://zoomcharts.com/en/microsoft-power-bi-custom-visuals/challenges/onyx-data-september-2024?utm_source=youtube&utm_medium=social&utm_campaign=onyx_september24_workshop&utm_content=ZcHeader)
