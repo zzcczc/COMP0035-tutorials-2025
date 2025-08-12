@@ -653,10 +653,6 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 
-# Project files
-activities/future-weeks/
-activities/md_to_pdf
-
 # Visual Studio Code
 .vscode/
 !.vscode/settings.json
@@ -670,3 +666,8 @@ activities/md_to_pdf
 
 # Built Visual Studio Code Extensions
 *.vsix
+
+# markdown conversion excluded
+docs/md_to_pdf
+docs/md_to_pdf/
+docs/future_weeks

@@ -17,7 +17,6 @@ dependencies = [
 requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
 
-
 # Setuptools configuration see https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#setuptools-specific-configuration
 # Not strictly required as default 'src' is automatically recognised by setuptools
 [tool.setuptools]
@@ -32,3 +31,26 @@ where = ["src"] # tells setuptools to go and look inside src/ to find packages.
 
 [tool.setuptools.include-package-data]
 include-package-data = true  # ensures the package-data files are bundled when building the package, not really needed for this course
+
+# Pytest configuration
+[tool.pytest.ini_options]
+minversion = "6.0"  # Optional, sets the minimum version of pytest required to run the test code
+addopts = "-ra -v"  # -ra sets a particular style of report output, -q reduces the verbosity (less detail) whereas -v increases it
+testpaths = [
+    "tests" # name of the directory from the project root where the test code is
+]
+
+# Pylint configuration
+[tool.pylint]
+max-line-length = 100 # Default is 79 (PEP standard length) which can be too low to be practical
+good-names = ["i", "j", "df", "x", "y"]
+
+# Flake8 configuration
+[tool.flake8]
+max-line-length = 100  # Default is 79 (PEP standard length) which can be too low to be practical
+exclude = [
+    "__pycache__",
+    "build",
+    "dist",
+    ".venv"
+]
