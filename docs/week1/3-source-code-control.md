@@ -167,11 +167,13 @@ You can do also this with 'git' commands from the terminal in either IDE:
     ```
 6. Return to GitHub, you many need to refresh the page, but you should now see your files on GitHub.
 
-You do not need to keep this practice repository. To delete, close your IDE fully. Go to the folder structure on your
-computer and delete the folder.
-Now go to GitHub and
-use [their documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository)
-to delete the repo you just made.
+You do not need to keep this practice repository. To delete:
+
+- Close your IDE (close not minimise)
+- Go to the folder structure on your computer and delete the folder.
+- Go to GitHub and
+  use [their documentation](https://docs.github.com/en/repositories/creating-and-managing-repositories/deleting-a-repository)
+  to delete the repo.
 
 ## Next steps
 
