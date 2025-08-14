@@ -1,7 +1,7 @@
-# Python project structure
+# Activity 1: Python project structure
 
 Before you start make sure you have created a GitHub account and have installed Python, git and a Python IDE e.g. Visual
-Studio Code or PyCharm Professional. If you have not, go to [computer setup](0-computer_setup.md).
+Studio Code or PyCharm Professional. If you have not, go to [computer setup](6-opt-computer_setup.md).
 
 ## What is a Python project?
 

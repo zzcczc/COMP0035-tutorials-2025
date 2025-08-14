@@ -29,7 +29,8 @@ This will be updated each week with the activities for that week.
 1. [Python project structure](docs/week1/1-structure.md)
 2. [Python virtual environment](docs/week1/2-environments.md)
 3. [Source code control (GitHub)](docs/week1/3-source-code-control.md)
-4. [Set up the coursework repository and project](docs/week1/5-coursework-repo.md)
+4. [Set up the course activities project and repository](docs/week1/4-activities-repo.md)
+5. [Set up the coursework project and repository](docs/week1/5-coursework-repo.md)
 
 ### Week 2 Pandas to describe, explore and prepare a dataset
 

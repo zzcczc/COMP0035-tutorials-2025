@@ -1,4 +1,4 @@
-# Python virtual environments
+# Activity 2: Python virtual environments
 
 ## What is a virtual environment
 

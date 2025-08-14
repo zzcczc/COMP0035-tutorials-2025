@@ -1,11 +1,11 @@
-# Source code control
+# Activity 3: Source code control
 
 ## Setup
 
 1. Make sure you installed have installed `git` on your computer (not in the project venv).
-   See [computer setup](0-computer_setup.md).
+   See [computer setup](6-opt-computer_setup.md).
 
-2. Make sure you created a GitHub account. See [computer setup](0-computer_setup.md).
+2. Make sure you created a GitHub account. See [computer setup](6-opt-computer_setup.md).
 
 3. You may also want to install a gitignore plugin for your IDE, e.g.
 
@@ -183,5 +183,8 @@ For the rest of COMP0035 you should be able to manage with a minimum of two repo
 2. Coursework (one repo for both)
 
 The next two activities walk you through how to set these up. Each uses a different method.
+
+You may also want to optionally [integrate your IDE with GitHub](7-opt-integrate-IDE-GitHub.md) to make it easier to
+work between your IDE and GitHub.
 
 [Next activity](4-activities-repo.md)
