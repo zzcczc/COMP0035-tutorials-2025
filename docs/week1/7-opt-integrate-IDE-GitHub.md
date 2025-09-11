@@ -1,4 +1,4 @@
-# Optional: Integrate your IDE with your GitHub account
+# Appendix 2: Integrate your IDE with your GitHub account (optional)
 
 You will be creating and editing files in your IDE and so you need to enable it to work with GitHub to manage your code.
 

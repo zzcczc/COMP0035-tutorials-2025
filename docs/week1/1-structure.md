@@ -50,7 +50,7 @@ files are referenced.
 The **.venv** directory is a structure with code to create a Python virtual environment. This is explained later in this
 week's activities.
 
-```plain text
+```text
 my_project_name/
 ├── README.md              # Gives info to others on your project and how to use the it
 ├── pyproject.toml         # Project metadata and dependencies

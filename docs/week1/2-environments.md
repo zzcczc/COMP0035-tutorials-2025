@@ -19,7 +19,7 @@ A virtual environment, or **venv** is created in a directory, usually within you
 
 The structure of the venv looks a little different on macOS and Windows:
 
-```Plain Text
+```text
 .venv/
 ├── bin/                    # Contains executables like python, pip, and the activate script
 │   ├── activate
@@ -33,7 +33,7 @@ The structure of the venv looks a little different on macOS and Windows:
 
 and the Windows version:
 
-```Plain Text
+```text
 .venv/
 ├── Scripts/            # Contains executables like python, pip, and the activate script
 │   ├── activate.bat
@@ -142,7 +142,7 @@ Run `pip list` before and after you do so you can see what has been installed.
 You may find that other packages are also listed, this is because packages can have their own dependencies that need to
 be installed. For example, installing pandas also installs:
 
-```plain text
+```text
 Package         Version
 --------------- -----------
 numpy           2.3.2
@@ -221,7 +221,7 @@ exclude = ["my_package.tests*"]  # exclude packages matching these glob patterns
 1. Create a new file in the project root. This is a plain text file. Take care to name it exactly `pyproject.toml` (all
    lowercase).
 
-    ```Plain Text
+    ```text
     [project]
     name = "sample-project"
     version = "2025.0.0"

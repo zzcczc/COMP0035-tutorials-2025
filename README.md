@@ -26,19 +26,27 @@ This will be updated each week with the activities for that week.
 
 ### Week 1 Source code control, environment, structure
 
+Required:
+
 1. [Python project structure](docs/week1/1-structure.md)
 2. [Python virtual environment](docs/week1/2-environments.md)
 3. [Source code control (GitHub)](docs/week1/3-source-code-control.md)
 4. [Set up the course activities project and repository](docs/week1/4-activities-repo.md)
 5. [Set up the coursework project and repository](docs/week1/5-coursework-repo.md)
 
+Optional:
+
+6. [Computer setup for COMP0035](docs/week1/6-opt-computer_setup.md)
+7. [Integrate your IDE with GitHub](docs/week1/7-opt-integrate-IDE-GitHub.md)
+8. [Using CoPilot in VS Code and PyCharm](docs/week1/8-opt-copilot-ide.md)
+
 ### Week 2 Pandas to describe, explore and prepare a dataset
 
 ### Week 3 Database design; sqlite3
 
-### Week 4 Database to Python class: ORM
+### Week 4 Code quality: linting, docstrings, PEP8/257, use of functions.
 
-### Week 5 Code quality: linting, docstrings, PEP8/257, use of functions.
+### Week 5 Database to Python class: ORM
 
 ### Week 6 Requirements; interface design
 

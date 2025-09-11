@@ -1,4 +1,4 @@
-# Computer setup for COMP0035 and COMP0034
+# Appendix 1: Computer setup for COMP0035 and COMP0034
 
 You need a python coding environment with the following.
 
