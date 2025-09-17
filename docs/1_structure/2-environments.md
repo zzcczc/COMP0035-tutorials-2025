@@ -216,7 +216,7 @@ include = ["my_package*"]  # package names should match these glob patterns (["*
 exclude = ["my_package.tests*"]  # exclude packages matching these glob patterns (empty by default)
 ```
 
-## Task: Create a pyproject.toml and
+## Task: Create a pyproject.toml and install your own code
 
 1. Create a new file in the project root. This is a plain text file. Take care to name it exactly `pyproject.toml` (all
    lowercase).
@@ -236,3 +236,18 @@ exclude = ["my_package.tests*"]  # exclude packages matching these glob patterns
 You should see a new hidden folder (`.egg-info`) is created that has information about the installed project.
 
 [Next activity](3-source-code-control.md)
+
+## Further information
+
+[The Hitchhiker's Guide to Python: Structuring your project](https://docs.python-guide.org/writing/structure/)
+
+[Python Packaging User Guide: Packaging Python Projects](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+[freeCodeCamp: How to Build Your Very First Python Package](https://www.freecodecamp.org/news/build-your-first-python-package/)
+
+[Real Python: Python Application Layouts: A Reference](https://realpython.com/python-application-layouts/)
+
+[setuptools: Package Discovery and Namespace Packages](https://setuptools.pypa.io/en/latest/userguide/package_discovery.html)
+
+[setuptools: Data Files Support](https://setuptools.pypa.io/en/latest/userguide/datafiles.html)
+

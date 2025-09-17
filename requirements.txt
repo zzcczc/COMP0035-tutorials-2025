@@ -3,9 +3,11 @@
 # data manipulation and visualisation
 pandas
 matplotlib
+openpyxl
 # linting and static analysis
 pylint
 flake8
+ruff
 # testing
 pytest
 pytest-cov

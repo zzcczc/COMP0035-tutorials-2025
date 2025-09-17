@@ -5,14 +5,13 @@ version = "2025.0.1"
 # Tells setuptools that the following packages need to be installed for this project. Version numbers can be specified, the following will just install the latest version.
 dependencies = [
     "pandas",
+    "openpyxl",
     "matplotlib",
-    "pylint",
-    "flake8",
     "pytest",
     "pytest-cov"
 ]
 
-# Most students will use setuptools, though poetry is also an option
+# Most students use setuptools, other options exist e.g. poetry
 [build-system]
 requires = ["setuptools >= 61.0"]
 build-backend = "setuptools.build_meta"
@@ -26,31 +25,25 @@ package-dir = { "" = "src" } # tells setuptools that the root of the packages is
 where = ["src"] # tells setuptools to go and look inside src/ to find packages.
 
 # Setuptools configuration for the data files see https://setuptools.pypa.io/en/stable/userguide/datafiles.html
-[tool.setuptools.package-data]
-"starter_package" = ["data/*.csv", "data/*.xlsx", "data/*.db", "data/*.sqlite"]  # include all csv and xlsx files in the tutorialpkg package
-
-[tool.setuptools.include-package-data]
-include-package-data = true  # ensures the package-data files are bundled when building the package, not really needed for this course
+# [tool.setuptools.package-data]
 
 # Pytest configuration
 [tool.pytest.ini_options]
 minversion = "6.0"  # Optional, sets the minimum version of pytest required to run the test code
-addopts = "-ra -v"  # -ra sets a particular style of report output, -q reduces the verbosity (less detail) whereas -v increases it
+addopts = "-ra -v"  # Optional, -ra sets a particular style of report output, -q reduces the verbosity (less detail) whereas -v increases it
 testpaths = [
     "tests" # name of the directory from the project root where the test code is
 ]
 
 # Pylint configuration
 [tool.pylint]
-max-line-length = 100 # Default is 79 (PEP standard length) which can be too low to be practical
-good-names = ["i", "j", "df", "x", "y"]
+max-line-length = 100 # Default is 79 (PEP8 standard length)
+good-names = ["i", "j", "df", "x", "y"]  # Prevents variable name warnings for these common names that don't meet PEP8
 
 # Flake8 configuration
 [tool.flake8]
-max-line-length = 100  # Default is 79 (PEP standard length) which can be too low to be practical
-exclude = [
-    "__pycache__",
-    "build",
-    "dist",
-    ".venv"
-]
+max-line-length = 100  # Default is 79 (PEP8 standard length)
+
+# Ruff configuration
+[tool.ruff]
+line-length = 100 # Default is 88

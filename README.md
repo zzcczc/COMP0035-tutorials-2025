@@ -28,19 +28,38 @@ This will be updated each week with the activities for that week.
 
 Required:
 
-1. [Python project structure](docs/week1/1-structure.md)
-2. [Python virtual environment](docs/week1/2-environments.md)
-3. [Source code control (GitHub)](docs/week1/3-source-code-control.md)
-4. [Set up the course activities project and repository](docs/week1/4-activities-repo.md)
-5. [Set up the coursework project and repository](docs/week1/5-coursework-repo.md)
+1. [Python project structure](docs/1_structure/1-structure.md)
+2. [Python virtual environment](docs/1_structure/2-environments.md)
+3. [Source code control (GitHub)](docs/1_structure/3-source-code-control.md)
+4. [Set up the course activities project and repository](docs/1_structure/4-activities-repo.md)
+5. [Set up the coursework project and repository](docs/1_structure/5-coursework-repo.md)
 
 Optional:
 
-6. [Computer setup for COMP0035](docs/week1/6-opt-computer_setup.md)
-7. [Integrate your IDE with GitHub](docs/week1/7-opt-integrate-IDE-GitHub.md)
-8. [Using CoPilot in VS Code and PyCharm](docs/week1/8-opt-copilot-ide.md)
+6. [Computer setup for COMP0035](docs/1_structure/6-opt-computer_setup.md)
+7. [Integrate your IDE with GitHub](docs/1_structure/7-opt-integrate-IDE-GitHub.md)
+8. [Using CoPilot in VS Code and PyCharm](docs/1_structure/8-opt-copilot-ide.md)
 
 ### Week 2 Pandas to describe, explore and prepare a dataset
+
+This week's activities are more than you can complete in a week. There are less in week 4 so you could delay some to
+that week.
+
+1. [Create a package and module](docs/2_pandas/2-01-python-structure)
+2. [Open .csv and .xlsx files and create a DataFrame](docs/2_pandas/2-02-pandas-df)
+3. [Describe the dataframe](docs/2_pandas/2-03-pandas-describe)
+4. [Change data types](docs/2_pandas/2-0x-pandas-datatypes)
+5. [Combine dataframes](docs/2_pandas/2-0x-pandas-joining-dataframes)
+6. [Remove columns](docs/2_pandas/2-06-pandas-removing-columns)
+7. [Deal with missing values](docs/2_pandas/2-04-missing-values-identify)
+8. [Columns with categorical values](docs/2_pandas/2-08-categorical-data)
+9. [Add new column](docs/2_pandas/2-09-pandas-new-column)
+10. [Introduction to plots](docs/2_pandas/2-05-plot-overview.md)
+11. [Plots to show distributions and outliers](docs/2_pandas/2-06-distribution.md)
+12. [Timeseries plots](docs/2_pandas/2-12-timeseries.md)
+13. [Basic plot styling](docs/2_pandas/2-13-chart-styling.md)
+14. [Save prepared data to .csv](docs/2_pandas/2-14-save-df-to-file.md)
+15. [Suggestions for further practice](docs/2_pandas/2-15-further-practice)
 
 ### Week 3 Database design; sqlite3
 

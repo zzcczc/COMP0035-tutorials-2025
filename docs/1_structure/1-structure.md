@@ -61,7 +61,7 @@ my_project_name/
 │   ├── my_data.csv
 │   └── my_database.db
 ├── src/                   # Application code         
-│   ├── my_project/                 
+│   ├── my_app/                 
 │   │   ├── __init__.py
 │   │   ├── main.py (or app.py)    
 │   │   └── some_module.py          
@@ -96,3 +96,10 @@ During the rest of this week's activities, you will learn to use many of the def
 structure.
 
 [Next activity](2-environments.md)
+
+# Further reading
+There are examples of typical Python project structures on these sites:
+
+- [Python Packaging User Guide](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/#src-layout-vs-flat-layout)
+- [The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/structure/#sample-repository)
+- [Real Python](https://realpython.com/python-application-layouts/)
