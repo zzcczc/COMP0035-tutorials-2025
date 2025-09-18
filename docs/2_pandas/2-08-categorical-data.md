@@ -44,4 +44,4 @@ the npc codes and medal standings data.
    The results here show a different issue; multiple values are included in a single cell. This will be addressed in a
    later week in database design.
 
-[Next activity](2-09-resolve-issues.md)
+[Next activity](2-09-data-prep.md)

@@ -29,6 +29,23 @@ The data set contains city locations and the country of that city.
    columns, or try `pairs = df[['host', 'country']]` and apply the `drop_duplicates()` and `sort_values(by='country')`
    functions. You can chain these functions together.
 
-Is the prepared data sufficient? This is subjective. The NPC data also had region which might also be added to allow someone to
+Is the prepared data sufficient? This is subjective. The NPC data also had region which might also be added to allow
+someone to
 answer. If you wanted to map the locations you would need to find the latitude and longitude of the host cities as well.
 
+## When have the events been held?
+
+You could do this by printing the values, or by displaying on a timeline. The following guides you through creating a timeline.
+
+
+
+
+## How have the number of sports and events included changed over time?
+
+Over to you, have a go at demonstrating you have the data to allow someone to answer the remaining questions:
+
+- What are the trends in participant numbers over time?
+    - How does this vary by gender?
+    - How does this vary by winter and summer events?
+
+[Next activity](2-18-next-steps.md)
