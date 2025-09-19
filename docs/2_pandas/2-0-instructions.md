@@ -80,3 +80,27 @@ If missing, install these using `pip` e.g.  `pip install pandas openpyxl`
 
 <sup>1</sup> The default installation of pandas can only open Excel `.xlsx` files with an additional library called `openpyxl` <sup>1</sup>.
 
+## Complete the activities
+This week's activities are more than you can complete in a week. There are less in week 4 so you could delay some to
+that week.
+
+Activity instructions are in the docs/2_pandas folder.
+
+1. [Create a package and module](2-01-python-structure)
+2. [Open .csv and .xlsx files and create a DataFrame](2-02-pandas-df)
+3. [Describe the dataframe](2-03-pandas-describe)
+4. [Identify missing values](2-04-missing-values-identify.md)
+5. [Overview of plots](2-05-plot-overview.md)
+6. [Plots to show distributions](2-06-plot-distribution.md)
+7. [Plots for timeseries data](2-07-plot-timeseries.md)
+8. [Columns with categorical values](2-08-categorical-data)
+9. [Data preparation](2-09-data-prep.md)
+10. [Locating rows and columns](2-10-locating-rows-cols.md)
+11. [Remove columns](2-11-removing-columns.md)
+12. [Remove and replace values](2-12-resolve-missing-incorrect-values.md)
+13. [Change data types](2-13-change-datatypes.md)
+14. [Add new data by computing](2-14-new-column.md)
+15. [Add new data by combining dataframes](2-15-joining-dataframes.md)
+16. [Save dataframe to file](2-16-save-df-to-file.md)
+17. [Check the prepared data suits the purpose](2-17-questions.md)
+18. [Next steps](2-18-next-steps.md)

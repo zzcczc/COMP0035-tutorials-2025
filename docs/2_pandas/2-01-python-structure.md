@@ -55,14 +55,14 @@ The project structure can contain the following:
 
 ## ACTIVITY: Create a package and module for the tutorial activities
 
-In the src/activities folder create a package (folder) for your work. Give it a meaningful name.
+In the src/activities folder create a package (folder) for your work. Give it a meaningful name so you know this is your
+code solutions to the activities, e.g. 'solutions', 'student', 'my_code'.
 
 Inside the folder you just created, add a python file named exactly like this: `__init__.py` (you might already have
-this, some IDEs add it for you)
+this, some IDEs add it for you when you add a new package)
 
-Now create a new python file, a module, in that package folder for the tutorial activities. Note: Don't call it
-pandas.py as it
-could conflict with the pandas package.
+Now create a new python file, a module, in that package folder for the tutorial activities. Note: Do not call it
+pandas.py as it could conflict with the pandas package!
 
 ## File locations
 
@@ -198,7 +198,7 @@ paralympics_datafile_csv = files("tutorialpkg.data").joinpath("paralympics_event
 
 ## ACTIVITY: Add code to reference a .csv file
 
-In the Python module you created earlier add code to locate the data file `paralmpics_raw.csv`. 
+In the Python module you created earlier add code to locate the data file `paralmpics_raw.csv`.
 
 Try using `pathlib.Path` and the `importlib.resources` approach.
 
@@ -207,11 +207,9 @@ Optionally, you can check you can access the file by opening and printing a line
 ```python
 import csv
 
-
 if __name__ == '__main__':
-    
-    data_file = # Your code that locates the file
-    
+    data_file =  # Your code that locates the file
+
     with open(data_file) as csv_file:
         csv_reader = csv.reader(csv_file, delimiter=',')
         first_row = next(csv_reader)
