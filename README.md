@@ -66,6 +66,29 @@ that week.
 
 ### Week 3 Database design; sqlite3
 
+Activity instructions are in the docs/3_database folder, including:
+
+1. [Introduction to database design (lecture recap)](docs/3_database/3-01-database-design.md)
+2. [Introduction to ERD (lecture recap) and ERD drawing tools](docs/3_database/3-02-erd-intro.md)
+3. [Conceptual database design](docs/3_database/3-03-conceptual-design.md)
+4. [Logical design to 1NF](docs/3_database/3-04-logical-design-1nf.md)
+5. [Logical design to 2NF](docs/3_database/3-05-logical-design-2nf.md)
+6. [Logical design to 3NF](docs/3_database/3-06-logical-design-3nf.md)
+7. [Logical design - constraints](docs/3_database/3-07-logical-design-constraints-data.md)
+8. [Logical design - referential integrity](docs/3_database/3-08-logical-design-constraints-fk.md)
+9. [Logical design activity](docs/3_database/3-09-logical-design-activity.md)
+10. [Physical design - SQLite schema](docs/3_database/3-10-physical-design-structure.md)
+11. [Phyical design - Python to create SQLite database structure](docs/3_database/3-11-physical-design-create-db.md)
+12. [Database design - next steps](docs/3_database/3-12-next-steps.md)
+    
+The remaining activities are optional at this stage. They are not required in coursework 1.
+
+13. [SQL INSERT and SELECT intro](docs/3_database/3-13-sql-add-data.md)
+14. [Add data to tables with no FK](docs/3_database/3-14-insert-no-fk.md)
+15. [Select data](docs/3_database/3-15-select-query.md)
+16. [Add data to tables with an FK](docs/3_database/3-16-insert-with-fk.md) 
+17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off between database normalisation and query design
+
 ### Week 4 Code quality: linting, docstrings, PEP8/257, use of functions.
 
 ### Week 5 Database to Python class: ORM
