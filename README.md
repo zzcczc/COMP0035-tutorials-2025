@@ -28,17 +28,17 @@ This will be updated each week with the activities for that week.
 
 Required:
 
-1. [Python project structure](docs/1_structure/1-structure.md)
-2. [Python virtual environment](docs/1_structure/2-environments.md)
-3. [Source code control (GitHub)](docs/1_structure/3-source-code-control.md)
-4. [Set up the course activities project and repository](docs/1_structure/4-activities-repo.md)
-5. [Set up the coursework project and repository](docs/1_structure/5-coursework-repo.md)
+1. [Python project structure](docs/1_structure/1-01-structure.md)
+2. [Python virtual environment](docs/1_structure/1-02-environments.md)
+3. [Source code control (GitHub)](docs/1_structure/1-03-source-code-control.md)
+4. [Set up the course activities project and repository](docs/1_structure/1-04-activities-repo.md)
+5. [Set up the coursework project and repository](docs/1_structure/1-05-coursework-repo.md)
 
 Optional:
 
-6. [Computer setup for COMP0035](docs/1_structure/6-opt-computer_setup.md)
-7. [Integrate your IDE with GitHub](docs/1_structure/7-opt-integrate-IDE-GitHub.md)
-8. [Using CoPilot in VS Code and PyCharm](docs/1_structure/8-opt-copilot-ide.md)
+6. [Computer setup for COMP0035](docs/1_structure/1-06-opt-computer_setup.md)
+7. [Integrate your IDE with GitHub](docs/1_structure/1-07-opt-integrate-IDE-GitHub.md)
+8. [Using CoPilot in VS Code and PyCharm](docs/1_structure/1-08-opt-copilot-ide.md)
 
 ### Week 2 Pandas to describe, explore and prepare a dataset
 
@@ -89,7 +89,8 @@ The remaining activities are optional at this stage. They are not required in co
 16. [Add data to tables with an FK](docs/3_database/3-16-insert-with-fk.md) 
 17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off between database normalisation and query design
 
-### Week 4 Code quality: linting, docstrings, PEP8/257, use of functions.
+### Week 4 Code quality: linting, docstrings, PEP8/257, use of functions
+
 
 ### Week 5 Database to Python class: ORM
 

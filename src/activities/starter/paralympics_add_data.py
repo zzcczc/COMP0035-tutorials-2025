@@ -7,8 +7,8 @@ from importlib import resources
 
 import pandas as pd
 
-from activities.tutor import data_solutions
-from activities.tutor.database_3 import create_db
+from activities.database_wk3 import data_solutions
+from activities.database_wk3.solutions_db import create_db
 
 
 def insert_data(db_path, df, table_name):

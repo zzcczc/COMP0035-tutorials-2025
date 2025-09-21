@@ -43,7 +43,15 @@ good-names = ["i", "j", "df", "x", "y"]  # Prevents variable name warnings for t
 # Flake8 configuration
 [tool.flake8]
 max-line-length = 100  # Default is 79 (PEP8 standard length)
+max-complexity = 1  # mccabe
 
 # Ruff configuration
 [tool.ruff]
 line-length = 100 # Default is 88
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.mccabe]
+max-complexity = 1
+

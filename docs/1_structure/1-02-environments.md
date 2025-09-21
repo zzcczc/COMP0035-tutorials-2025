@@ -48,7 +48,7 @@ and the Windows version:
 
 There are various tools for creating virtual environments and some also manage the packages within it.
 
-These include venv, virtualenv, pipenv, conda, poetry.
+These include venv, virtualenv, pipenv, conda, poetry, uv.
 
 `venv` is the simplest tool and is bundled with Python so this will be referenced in all the activities for this minor.
 However, if you are already familiar with another tool then continue to use it.
@@ -235,7 +235,7 @@ exclude = ["my_package.tests*"]  # exclude packages matching these glob patterns
 
 You should see a new hidden folder (`.egg-info`) is created that has information about the installed project.
 
-[Next activity](3-source-code-control.md)
+[Next activity](1-03-source-code-control.md)
 
 ## Further information
 

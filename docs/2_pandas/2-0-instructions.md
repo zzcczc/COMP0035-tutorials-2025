@@ -66,7 +66,7 @@ The following screenshot shows this in PyCharm on macOS:
 ![Check for active venv](../img/venv-check.png)
 
 If you are not in a venv, refer to activating a virtual environment
-in [Week 1 activity 2](../1_structure/2-environments.md).
+in [Week 1 activity 2](../1_structure/1-02-environments.md).
 
 ### 3. Check you have the required libraries installed in the virtual environment
 

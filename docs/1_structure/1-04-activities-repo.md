@@ -43,7 +43,7 @@ summarises the last approach.
 Use the [VS Code documentation](https://code.visualstudio.com/docs/sourcecontrol/github#_cloning-a-repository) which has
 the latest screenshots and guidance.
 
-NB If you have [integrated your IDE with GitHub](7-opt-integrate-IDE-GitHub.md) then it may give you a list of
+NB If you have [integrated your IDE with GitHub](1-07-opt-integrate-IDE-GitHub.md) then it may give you a list of
 your repos to choose from. If not then you may be prompted to log in.
 
 - Select the source code control icon in the left nav bar (3 circles connected with 2 lines)
@@ -62,7 +62,7 @@ the [PyCharm documentation](https://www.jetbrains.com/help/pycharm/manage-projec
 which has
 the latest screenshots and guidance.
 
-NB If you have [integrated your IDE with GitHub](7-opt-integrate-IDE-GitHub.md) then it may give you a list of
+NB If you have [integrated your IDE with GitHub](1-07-opt-integrate-IDE-GitHub.md) then it may give you a list of
 your repos to choose from. If not then you may be prompted to log in.
 
 Summary of steps:
@@ -103,4 +103,4 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
-[Next activity](5-coursework-repo.md)
+[Next activity](1-05-coursework-repo.md)
