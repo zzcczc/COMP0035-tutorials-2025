@@ -89,8 +89,15 @@ The remaining activities are optional at this stage. They are not required in co
 16. [Add data to tables with an FK](docs/3_database/3-16-insert-with-fk.md) 
 17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off between database normalisation and query design
 
-### Week 4 Code quality: linting, docstrings, PEP8/257, use of functions
+### Week 4 Code quality: linting, docstrings, exception handling, project structure and imports
 
+1. [Docstring](docs/4_code_quality/4-01-docstrings.md)
+2. [Linting and auto-formatting](docs/4_code_quality/4-02-linting.md)
+3. [GitHub Actions lint report](docs/4_code_quality/4-03-github-actions.md)
+4. [(Optional) Static analysis: beyond linting](docs/4_code_quality/4-04-static-analysis.md)
+5. [Project structure](docs/4_code_quality/4-05-project-structure.md)
+6. [Imports](docs/4_code_quality/4-06-imports.md)
+7. [Error handling](docs/4_code_quality/4-07-error-handling.md)
 
 ### Week 5 Database to Python class: ORM
 
