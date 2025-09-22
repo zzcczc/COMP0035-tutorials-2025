@@ -45,6 +45,8 @@ Optional:
 This week's activities are more than you can complete in a week. There are less in week 4 so you could delay some to
 that week.
 
+[Week 2 instructions](docs/2_pandas/2-0-instructions.md) are in the docs/2_pandas folder:
+
 1. [Create a package and module](docs/2_pandas/2-01-python-structure)
 2. [Open .csv and .xlsx files and create a DataFrame](docs/2_pandas/2-02-pandas-df)
 3. [Describe the dataframe](docs/2_pandas/2-03-pandas-describe)
@@ -66,7 +68,7 @@ that week.
 
 ### Week 3 Database design; sqlite3
 
-Activity instructions are in the docs/3_database folder, including:
+[Activity instructions](docs/3_database/3-0-instructions.md) are in the docs/3_database folder:
 
 1. [Introduction to database design (lecture recap)](docs/3_database/3-01-database-design.md)
 2. [Introduction to ERD (lecture recap) and ERD drawing tools](docs/3_database/3-02-erd-intro.md)
@@ -91,6 +93,8 @@ The remaining activities are optional at this stage. They are not required in co
 
 ### Week 4 Code quality: linting, docstrings, exception handling, project structure and imports
 
+[Week 4 instructions](docs/4_code_quality/4-0-instructions.md) are in the docs/4_code_quality folder:
+
 1. [Docstring](docs/4_code_quality/4-01-docstrings.md)
 2. [Linting and auto-formatting](docs/4_code_quality/4-02-linting.md)
 3. [GitHub Actions lint report](docs/4_code_quality/4-03-github-actions.md)
@@ -100,6 +104,17 @@ The remaining activities are optional at this stage. They are not required in co
 7. [Error handling](docs/4_code_quality/4-07-error-handling.md)
 
 ### Week 5 Database to Python class: ORM
+
+[Week 5 instructions](docs/5_classes_orm/5-0-instructions.md)are in the docs/5_classes_orm folder:
+
+1. [Python classes](docs/5_classes_orm/5-01-class.md)
+2. [Python data classes](docs/5_classes_orm/5-02-data-class.md)
+3. [Class relationships - inheritance, composition](docs/5_classes_orm/5-03-inheritance-composition.md)
+4. [Pydantic](docs/5_classes_orm/5-04-pydantic.md)
+5. [ORM and SQLModel](docs/5_classes_orm/5-05-orm-sqlmodel.md)
+6. [Using SQLModel to create SQLite database](docs/5_classes_orm/5-06-sqlmodel-create-db.md)
+7. [Summary](docs/5_classes_orm/5-07-summary.md)
+
 
 ### Week 6 Requirements; interface design
 

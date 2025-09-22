@@ -8,6 +8,9 @@ openpyxl
 pylint
 flake8
 ruff
+# Class activities in week 5
+pydantic
+sqlmodel
 # testing
 pytest
 pytest-cov

@@ -8,12 +8,17 @@ dependencies = [
     "openpyxl",
     "matplotlib",
     "pytest",
-    "pytest-cov"
+    "pytest-cov",
+    "pylint",
+    "flake8",
+    "ruff",
+    "pydantic",
+    "sqlmodel"
 ]
 
 # Most students use setuptools, other options exist e.g. poetry
 [build-system]
-requires = ["setuptools >= 61.0"]
+requires = ["setuptools >= 70.0"]
 build-backend = "setuptools.build_meta"
 
 # Setuptools configuration see https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#setuptools-specific-configuration
