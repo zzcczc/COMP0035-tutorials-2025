@@ -84,8 +84,6 @@ If missing, install these using `pip` e.g.  `pip install pandas openpyxl`
 This week's activities are more than you can complete in a week. There are less in week 4 so you could delay some to
 that week.
 
-Activity instructions are in the docs/2_pandas folder.
-
 1. [Create a package and module](2-01-python-structure)
 2. [Open .csv and .xlsx files and create a DataFrame](2-02-pandas-df)
 3. [Describe the dataframe](2-03-pandas-describe)

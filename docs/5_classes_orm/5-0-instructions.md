@@ -6,11 +6,11 @@ This week introduces concepts related to classes and how these may be used when 
 should work through all the activities as the concepts are related and knowledge should be progressively built through
 the activities.
 
-The concepts are important. Learning all syntax is not!
-
 Each type of class discussed in activities 1, 2, 3 and 5 vary in their syntax which can seem confusing. You will
 ultimately mostly use SQLModel with an SQLite database in COMP0034 and COMP0035, so do not be concerned at trying to 
 learn other syntax.
+
+The concepts are important. Learning all variants of syntax is not!
 
 1. [Python classes](5-01-class.md)
 2. [Python data classes](5-02-data-class.md)

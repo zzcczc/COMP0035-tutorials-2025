@@ -82,14 +82,15 @@ that week.
 10. [Physical design - SQLite schema](docs/3_database/3-10-physical-design-structure.md)
 11. [Phyical design - Python to create SQLite database structure](docs/3_database/3-11-physical-design-create-db.md)
 12. [Database design - next steps](docs/3_database/3-12-next-steps.md)
-    
+
 The remaining activities are optional at this stage. They are not required in coursework 1.
 
 13. [SQL INSERT and SELECT intro](docs/3_database/3-13-sql-add-data.md)
 14. [Add data to tables with no FK](docs/3_database/3-14-insert-no-fk.md)
 15. [Select data](docs/3_database/3-15-select-query.md)
-16. [Add data to tables with an FK](docs/3_database/3-16-insert-with-fk.md) 
-17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off between database normalisation and query design
+16. [Add data to tables with an FK](docs/3_database/3-16-insert-with-fk.md)
+17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off
+    between database normalisation and query design
 
 ### Week 4 Code quality: linting, docstrings, exception handling, project structure and imports
 
@@ -103,6 +104,12 @@ The remaining activities are optional at this stage. They are not required in co
 6. [Imports](docs/4_code_quality/4-06-imports.md)
 7. [Error handling](docs/4_code_quality/4-07-error-handling.md)
 
+<hr>
+
+**Activities after this point relate to coursework 2**
+
+<hr>
+
 ### Week 5 Database to Python class: ORM
 
 [Week 5 instructions](docs/5_classes_orm/5-0-instructions.md)are in the docs/5_classes_orm folder:
@@ -114,7 +121,6 @@ The remaining activities are optional at this stage. They are not required in co
 5. [ORM and SQLModel](docs/5_classes_orm/5-05-orm-sqlmodel.md)
 6. [Using SQLModel to create SQLite database](docs/5_classes_orm/5-06-sqlmodel-create-db.md)
 7. [Summary](docs/5_classes_orm/5-07-summary.md)
-
 
 ### Week 6 Requirements; interface design
 
