@@ -42,7 +42,7 @@ Optional:
 
 ### Week 2 Pandas to describe, explore and prepare a dataset
 
-This week's activities are more than you can complete in a week. There are much less in weeks 4 and 5 so you could delay some.
+This week's activities are more than you can complete in a week. There are less in weeks 4 and 5 so you could delay some.
 
 [Week 2 instructions](docs/2_pandas/2-0-instructions.md) are in the docs/2_pandas folder:
 
@@ -67,7 +67,7 @@ This week's activities are more than you can complete in a week. There are much 
 
 ### Week 3 Database design; sqlite3
 
-This week's activities are more than you can complete in a week. There are much less in weeks 4 and 5 so you could delay some.
+This week's activities are more than you can complete in a week. There are less in weeks 4 and 5 so you could delay some.
 
 [Activity instructions](docs/3_database/3-0-instructions.md) are in the docs/3_database folder:
 
@@ -82,11 +82,11 @@ This week's activities are more than you can complete in a week. There are much 
 9. [Logical design activity](docs/3_database/3-09-logical-design-activity.md)
 10. [Physical design - SQLite schema](docs/3_database/3-10-physical-design-structure.md)
 11. [Phyical design - Python to create SQLite database structure](docs/3_database/3-11-physical-design-create-db.md)
-12. [Database design - next steps](docs/3_database/3-12-next-steps.md)
-13. [SQL INSERT and SELECT intro](docs/3_database/3-13-sql-add-data.md)
-14. [Add data to tables with no FK](docs/3_database/3-14-insert-no-fk.md)
-15. [Select data](docs/3_database/3-15-select-query.md)
-16. [Add data to tables with an FK](docs/3_database/3-16-insert-with-fk.md) 
+12. [Database design - next steps](docs/3_database/3-16-next-steps.md)
+13. [SQL INSERT and SELECT intro](docs/3_database/3-12-sql-add-data.md)
+14. [Add data to tables with no FK](docs/3_database/3-13-insert-no-fk.md)
+15. [Select data](docs/3_database/3-14-select-query.md)
+16. [Add data to tables with an FK](docs/3_database/3-15-insert-with-fk.md) 
 17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off between database normalisation and query design
 
 ### Week 4 Code quality: linting, docstrings, exception handling, project structure and imports
@@ -117,7 +117,8 @@ This week's activities are more than you can complete in a week. There are much 
 4. [Pydantic](docs/5_classes_orm/5-04-pydantic.md)
 5. [ORM and SQLModel](docs/5_classes_orm/5-05-orm-sqlmodel.md)
 6. [Using SQLModel to create SQLite database](docs/5_classes_orm/5-06-sqlmodel-create-db.md)
-7. [Summary](docs/5_classes_orm/5-07-summary.md)
+7. [Using SQLModel to add data](docs/5_classes_orm/5-07-sqlmodel-add-data.md)
+8. [Summary](docs/5_classes_orm/5-08-summary.md)
 
 ### Week 6 Requirements; interface design
 

@@ -100,5 +100,7 @@ sql statements to enable this.
     - Store dates as TEXT.
     - Table creation order matters. You cannot add an FK if the table it refers to has not yet been created. Start with
       the tables that don't have any FK.
+    - Keep table names to all lowercase, no spaces or underscores (not important now but will make it easier in later
+      activities!)
 
 [Next activity](3-11-physical-design-create-db.md)

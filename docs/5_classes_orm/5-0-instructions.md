@@ -18,4 +18,5 @@ The concepts are important. Learning all variants of syntax is not!
 4. [Pydantic](5-04-pydantic.md)
 5. [ORM and SQLModel](5-05-orm-sqlmodel.md)
 6. [Using SQLModel to create SQLite database](5-06-sqlmodel-create-db.md)
-7. [Summary](5-07-summary.md)
+7. [Using SQLModel to add data](5-07-sqlmodel-add-data.md)
+8. [Summary](5-08-summary.md)

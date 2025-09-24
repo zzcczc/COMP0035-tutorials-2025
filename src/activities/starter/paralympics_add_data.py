@@ -25,10 +25,10 @@ def insert_data(db_path, df, table_name):
         print(f"Table {table_name} already has data. Skipping insert.")
         return
 
-    # Get the column names from the tables, drop the 'id' column except for the Team table
+    # Get the column names from the tables, drop the 'id' column except for the team table
     cursor.execute(f"PRAGMA table_info({table_name});")
     cols_with_id = [row[1] for row in cursor.fetchall()]
-    if table_name != "Team":
+    if table_name != "team":
         cols = cols_with_id[1:]
     else:
         cols = cols_with_id[0:-1]
@@ -56,10 +56,10 @@ def insert_data(db_path, df, table_name):
 def insert_team_data(db_path, df):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
-    team_cols = get_column_names(db_path, "Team")
+    team_cols = get_column_names(db_path, "team")
     cols_to_use = team_cols[0:-1]  # drop the last column, country_id
     df.columns = cols_to_use  # reset the df columns to the revised names for the table
-    insert_data(db_path, df, "Team")
+    insert_data(db_path, df, "team")
     replacement_names = {
         'Great Britain': 'UK',
         'United States of America': 'USA',
@@ -67,17 +67,17 @@ def insert_team_data(db_path, df):
         'Russian Federation': 'Russia',
         "People's Republic of China": 'China'
     }
-    # For each row in the Team table, if the value in Team.name matches a value in Country.country
-    # then insert the Country.id as Team.country_id
-    cursor.execute(f"SELECT * FROM Team")
+    # For each row in the team table, if the value in team.name matches a value in country.country
+    # then insert the country.id as team.country_id
+    cursor.execute(f"SELECT * FROM team")
     rows = cursor.fetchall()
     for row in rows:
-        # Find the country id where Country.country matches Team.name
+        # Find the country id where country.country matches team.name
         country_name = replacement_names.get(row[1], row[1])
-        cursor.execute("SELECT id FROM Country WHERE country = ?", (country_name,))
+        cursor.execute("SELECT id FROM country WHERE country = ?", (country_name,))
         result = cursor.fetchone()
         if result is not None:
-            cursor.execute(f"UPDATE Team SET country_id = ? WHERE code = ?", (result[0], row[0]))
+            cursor.execute(f"UPDATE team SET country_id = ? WHERE code = ?", (result[0], row[0]))
     conn.commit()
     conn.close()
 
@@ -96,12 +96,12 @@ def insert_host_data(db_path, df):
         row = df[df['host'].str.contains(rf'\b{host}\b', na=False)].iloc[0]
         country_names = [c.strip() for c in row.country.split(',')]
         for country_name in country_names:
-            cursor.execute("SELECT id FROM Country WHERE country = ?", (country_name,))
+            cursor.execute("SELECT id FROM country WHERE country = ?", (country_name,))
             result = cursor.fetchone()
             if result is not None:
-                cursor.execute(f"INSERT INTO Host (place_name, country_id) VALUES (?, ?)", (host, result[0]))
+                cursor.execute(f"INSERT INTO host (place_name, country_id) VALUES (?, ?)", (host, result[0]))
             else:
-                print(f"Country '{country_name}' not found in Country table. Skipping host '{host}'.")
+                print(f"Country '{country_name}' not found in country table. Skipping host '{host}'.")
     conn.commit()
     conn.close()
 
@@ -111,8 +111,8 @@ def insert_association_table_data(db_path, df):
     conn = sqlite3.connect(db_path)
     cursor = conn.cursor()
     for _, row in df.iterrows():
-        # Find Games.id where Games.year + Games.type matches the row['year'] + row['type']
-        cursor.execute("SELECT id FROM Games WHERE year = ? AND type = ?", (row['year'], row['type']))
+        # Find games.id where games.year + games.type matches the row['year'] + row['type']
+        cursor.execute("SELECT id FROM games WHERE year = ? AND type = ?", (row['year'], row['type']))
         games_id_result = cursor.fetchone()
         if not games_id_result:
             continue
@@ -121,20 +121,20 @@ def insert_association_table_data(db_path, df):
         # GamesHost: handle multiple hosts
         hosts = [h.strip() for h in str(row['host']).split(',') if h.strip()]
         for host in hosts:
-            cursor.execute("SELECT id FROM Host WHERE place_name = ?", (host,))
+            cursor.execute("SELECT id FROM host WHERE place_name = ?", (host,))
             host_id_result = cursor.fetchone()
             if host_id_result:
                 host_id = host_id_result[0]
-                cursor.execute("INSERT INTO GamesHost (games_id, host_id) VALUES (?, ?)", (games_id, host_id))
+                cursor.execute("INSERT INTO gameshost (games_id, host_id) VALUES (?, ?)", (games_id, host_id))
 
         # GamesDisability: handle multiple disabilities
         disabilities = [d.strip() for d in str(row['disabilities_included']).split(',') if d.strip()]
         for disability in disabilities:
-            cursor.execute("SELECT id FROM Disability WHERE description = ?", (disability,))
+            cursor.execute("SELECT id FROM disability WHERE description = ?", (disability,))
             disability_id_result = cursor.fetchone()
             if disability_id_result:
                 disability_id = disability_id_result[0]
-                cursor.execute("INSERT INTO GamesDisability (games_id, disability_id) VALUES (?, ?)",
+                cursor.execute("INSERT INTO gamesdisability (games_id, disability_id) VALUES (?, ?)",
                                (games_id, disability_id))
     conn.commit()
     conn.close()
@@ -219,22 +219,22 @@ def main():
     schema_path = resources.files(data_solutions).joinpath("paralympics_schema.sql")
     create_db(schema_path=schema_path, db_path=db_path)
     df_games, df_codes = create_dataframes(data_path)
-    # Games data
-    insert_data(db_path, df_games, "Games")
-    # Disability data using the unique values from the disabilities_included column
+    # games data
+    insert_data(db_path, df_games, "games")
+    # disability data using the unique values from the disabilities_included column
     disability_values = pd.unique(df_games.disabilities_included.dropna().str.split(',').explode().str.strip())
     df_disabilities = pd.DataFrame({'description': disability_values})
-    insert_data(db_path, df_disabilities, "Disability")
-    # Country data, needs to be unique and split the values in the row that has both UK and USA in
+    insert_data(db_path, df_disabilities, "disability")
+    # country data, needs to be unique and split the values in the row that has both UK and USA in
     country_values = pd.unique(df_games.country.dropna().str.split(',').explode().str.strip())
     df_country = pd.DataFrame({'country': country_values})
-    insert_data(db_path, df_country, "Country")
-    # Team
+    insert_data(db_path, df_country, "country")
+    # team
     insert_team_data(db_path, df=df_codes)
     # Host
-    delete_rows(db_path, ["Host", ])
+    delete_rows(db_path, ["host", ])
     insert_host_data(db_path, df_games)
-    # GamesHost, GamesDisability
+    # gameshost, gamesdisability
     insert_association_table_data(db_path, df_games)
 
 

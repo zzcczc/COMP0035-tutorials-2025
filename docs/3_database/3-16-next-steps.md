@@ -20,10 +20,3 @@
 - Read the coursework 1 specification so you know what it asks you to produce. It does not ask for every step that has
   been demonstrated in these activities.
 - Apply the knowledge from these activities to your coursework data.
-
-## Further activities in this week
-
-There are further optional activities that you may wish to work through. These should give you enough knowledge
-to add data to the database you just constructed.
-
-[Next activity]()

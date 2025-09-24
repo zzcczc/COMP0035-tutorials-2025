@@ -40,51 +40,57 @@ SQLModel.metadata.create_all(engine)
 2. Add code to use the classes to create a database name `paralympics_sqlmodel.db` (you probably already have one called
    `paralympics.db`)
 
-## Adding data
+## Reflection on using copilot to generate the SQLModels from a sql schema
 
-To add a single record to a database table is conceptually similar to the code used with sqlite: create the instance,
-add it, commit it.
+I generated the initial version of the SQLModel classes using copilot in Pycharm with paralympics_schema.sql attached
+and the prompt: "Based on the .sql schema, write SQLModel classes"
+
+The generated code was then checked against current SQLModel syntax:
+
+- https://sqlmodel.tiangolo.com/tutorial/create-db-and-table/ to define a class (for a table)
+- https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/ for relationship attributes
+
+Limitations of the initial copilot-generated solution:
+
+- The attributes for date were treated as string. I decided to leave this since SQLite stores date as string
+- Check constraints were not recognised. These are not directly supported in SQLModel in the current version.
+  You need use SQLAlchemy syntax. This is not in the SQLModel documentation and the SQLAlchemy documentation is complex
+  to follow. This article has a clear and shorter summary:
+  https://plainenglish.io/blog/creating-table-constraints-with-sqlmodel
+
+This table shows a solution for the check constraint:
 
 ```python
-hero_1 = Hero(name="Deadpond", secret_name="Dive Wilson")
-hero_2 = Hero(name="Spider-Boy", secret_name="Pedro Parqueador")
+from typing import Optional
 
-engine = create_engine("sqlite:///database.db")
+from sqlalchemy import CheckConstraint
+from sqlmodel import Field, SQLModel
 
-with Session(engine) as session:
-    session.add(hero_1)
-    session.add(hero_2)
-    session.commit()
+
+class Team(SQLModel, table=True):
+    code: str = Field(primary_key=True)
+    name: str
+    region: Optional[str]
+    sub_region: Optional[str]
+    member_type: Optional[str]
+    notes: Optional[str]
+    country_id: Optional[int] = Field(default=None, foreign_key="country.id")
+
+    __table_args__ = (
+        CheckConstraint("member_type IN ('country', 'team', 'dissolved', 'construct')"),
+        CheckConstraint("region IN ('Asia', 'Europe', 'Africa', 'America', 'Oceania')")
+    )
 ```
-
-To add data to the database, you can read the values into classes and create object instances. There are many ways you
-could do this. Since you already have code to read from .xslx into a pandas DataFrame, use that. The code would be
-structured something like this:
-
+- Foreign key constraints were also not recognised. This is a similar issue. To resolve it you need to define the field
+  as a sqlalchemy.Column() with an argument for the constraint: 
 ```python
-import pandas as pd
-from sqlmodel import Session, SQLModel, create_engine
-from mymodels import MyData  # Replace with your actual model
+from sqlalchemy import Column, Integer, ForeignKey
 
-# 1. Read Excel file
-df = pd.read_excel("your_data.xlsx")
-
-# 2. Convert DataFrame rows to SQLModel instances
-records = [MyData(**row.to_dict()) for _, row in df.iterrows()]
-
-# 3. Insert into database
-engine = create_engine("sqlite:///mydatabase.db")
-with Session(engine) as session:
-    session.add_all(records)
-    session.commit()
+sa_column=Column(
+            Integer,
+            ForeignKey("country.id", onupdate="CASCADE", ondelete="SET NULL"),
+            nullable=True
+        )
 ```
 
-## Activity: Add data to the new paralympics database
-
-Adding data to the paralympics database is more complex than the example above due to the number of tables so the code
-has been written for you in .
-
-Have a look at the code and then run it to add the data. You may need to edit the code to match the name and location of
-the database to your structure.
-
-[Next activity](5-07-summary.md)
+[Next activity](5-07-sqlmodel-add-data.md)

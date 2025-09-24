@@ -21,6 +21,8 @@ the [Mermaid chart extension](https://marketplace.visualstudio.com/publishers/Me
 
 ## Complete the activities
 
+There are many activities this week, less in weeks 4 and 5. You can spread out the activities over future weeks.
+
 Activity instructions are in the docs/3_database folder, including:
 
 1. [Introduction to database design (lecture recap)](3-01-database-design.md)
@@ -33,14 +35,11 @@ Activity instructions are in the docs/3_database folder, including:
 8. [Logical design - referential integrity](3-08-logical-design-constraints-fk.md)
 9. [Logical design activity](3-09-logical-design-activity.md)
 10. [Physical design - SQLite schema](3-10-physical-design-structure.md)
-11. [Phyical design - Python to create SQLite database structure](3-11-physical-design-create-db.md)
-12. [Database design - next steps](3-12-next-steps.md)
-
-The remaining activities are optional, not required in coursework 1
-
-13. [SQL INSERT and SELECT intro](3-13-sql-add-data.md)
-14. [Add data to tables with no FK](3-14-insert-no-fk.md)
-15. [Select data](3-15-select-query.md)
-16. [Add data to tables with an FK](3-16-insert-with-fk.md)
+11. [Physical design - Python to create SQLite database structure](3-11-physical-design-create-db.md)
+12. [Database design - next steps](3-16-next-steps.md)
+13. [SQL INSERT and SELECT intro](3-12-sql-add-data.md)
+14. [Add data to tables with no FK](3-13-insert-no-fk.md)
+15. [Select data](3-14-select-query.md)
+16. [Add data to tables with an FK](3-15-insert-with-fk.md)
 17. [Normalisation and application code](3-17-normalisation-tradeoff.md)- A brief intro to the trade-off between
     database normalisation and query design

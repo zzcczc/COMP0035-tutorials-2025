@@ -55,7 +55,7 @@ erDiagram
     }
 */
 PRAGMA foreign_keys = ON;
-CREATE TABLe Games
+CREATE TABLe games
 (
     id INTEGER PRIMARY KEY,
     type TEXT, CHECK (type IN ('winter', 'summer')),
@@ -71,7 +71,7 @@ CREATE TABLe Games
     highlights TEXT,
     URL TEXT
 );
-CREATE TABLE Country
+CREATE TABLE country
 (
     id INTEGER PRIMARY KEY,
     country TEXT NOT NULL
@@ -82,11 +82,11 @@ CREATE TABLE Country
         string description
     }
  */
-CREATE TABLE Disability (
+CREATE TABLE disability (
 
 );
 -- Team completed to show the FK syntax
-CREATE TABLE Team
+CREATE TABLE team
 (
     code TEXT PRIMARY KEY,
     name TEXT NOT NULL,
@@ -105,7 +105,7 @@ CREATE TABLE Team
 
  */
 
-CREATE TABLE Host (
+CREATE TABLE host (
 
 );
 
@@ -116,7 +116,7 @@ CREATE TABLE Host (
         str team_code FK "ON UPDATE CASCADE ON DELETE CASCADE"
     }
 */
-CREATE TABLE GamesTeam (
+CREATE TABLE gamesteam (
 
 );
 /*
@@ -126,7 +126,7 @@ CREATE TABLE GamesTeam (
         int disability_id FK "ON UPDATE CASCADE ON DELETE CASCADE"
     }
 */
-CREATE TABLE GamesDisability (
+CREATE TABLE gamesdisability (
 
 );
 /*
@@ -136,6 +136,6 @@ CREATE TABLE GamesDisability (
         int host_id FK "ON UPDATE CASCADE ON DELETE CASCADE"
     }
 */
-CREATE TABLE GamesHost (
+CREATE TABLE gameshost (
 
 );
