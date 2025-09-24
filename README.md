@@ -26,6 +26,8 @@ This will be updated each week with the activities for that week.
 
 ### Week 1 Source code control, environment, structure
 
+_*Theme: Working with code for applications*_
+
 Required:
 
 1. [Python project structure](docs/1_structure/1-01-structure.md)
@@ -41,6 +43,8 @@ Optional:
 8. [Using CoPilot in VS Code and PyCharm](docs/1_structure/1-08-opt-copilot-ide.md)
 
 ### Week 2 Pandas to describe, explore and prepare a dataset
+
+_*Theme: Using Python to work with data*_
 
 This week's activities are more than you can complete in a week. There are less in weeks 4 and 5 so you could delay some.
 
@@ -67,6 +71,8 @@ This week's activities are more than you can complete in a week. There are less 
 
 ### Week 3 Database design; sqlite3
 
+_*Themes: Designing applications*_ & _*Using Python to work with data*_
+
 This week's activities are more than you can complete in a week. There are less in weeks 4 and 5 so you could delay some.
 
 [Activity instructions](docs/3_database/3-0-instructions.md) are in the docs/3_database folder:
@@ -81,7 +87,7 @@ This week's activities are more than you can complete in a week. There are less 
 8. [Logical design - referential integrity](docs/3_database/3-08-logical-design-constraints-fk.md)
 9. [Logical design activity](docs/3_database/3-09-logical-design-activity.md)
 10. [Physical design - SQLite schema](docs/3_database/3-10-physical-design-structure.md)
-11. [Phyical design - Python to create SQLite database structure](docs/3_database/3-11-physical-design-create-db.md)
+11. [Physical design - Python to create SQLite database structure](docs/3_database/3-11-physical-design-create-db.md)
 12. [Database design - next steps](docs/3_database/3-16-next-steps.md)
 13. [SQL INSERT and SELECT intro](docs/3_database/3-12-sql-add-data.md)
 14. [Add data to tables with no FK](docs/3_database/3-13-insert-no-fk.md)
@@ -90,6 +96,8 @@ This week's activities are more than you can complete in a week. There are less 
 17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off between database normalisation and query design
 
 ### Week 4 Code quality: linting, docstrings, exception handling, project structure and imports
+
+_*Theme: Working with code for applications*_
 
 [Week 4 instructions](docs/4_code_quality/4-0-instructions.md) are in the docs/4_code_quality folder:
 
@@ -109,6 +117,8 @@ This week's activities are more than you can complete in a week. There are less 
 
 ### Week 5 Database to Python class: ORM
 
+_*Theme: Using Python to work with data*_
+
 [Week 5 instructions](docs/5_classes_orm/5-0-instructions.md)are in the docs/5_classes_orm folder:
 
 1. [Python classes](docs/5_classes_orm/5-01-class.md)
@@ -122,24 +132,41 @@ This week's activities are more than you can complete in a week. There are less 
 
 ### Week 6 Requirements; interface design
 
-### Week 7 Application design
+_*Theme: Designing applications*_
 
-### Week 8 Classes; error handling
+[Instructions](docs/6_requirements/6-0-instructions.md) in the docs/6_requirements folder:
+
+1. [Introduction](6-01-introduction.md)
+2. [Identify requirements](6-02-identify-requirements.md)
+3. [Document requirements](6-03-document-requirements.md)
+4. [Prioritise requirements](6-04-prioritise-requirements.md)
+5. [Draw wireframes](6-05-wireframes.md)
+
+### Week 7 Application design
+_*Theme: Designing applications*_
+
+
+### Week 8 Classes and database 2
+
+_*Theme: Using Python to work with data*_
+
 
 ### Week 9 Unit testing, CI and coverage
+
+_*Theme: Working with code for applications*_
+
 
 ### Week 10 No new activities
 
 Tutorial reserved for final coursework support
 
-## Data
+## Data set
 
-Most activities use paralympics data that was compiled from
-the [IPC website](https://www.paralympic.org/paralympic-games).
+Most activities use paralympics data that was originally compiled from
+the [IPC website](https://www.paralympic.org/paralympic-games) in 2021.
 
-The data is duplicated in some instances in `src/data` and in `src/starter/resources`. This is for teaching purposes for
-an activity that explains different methods to import the data in the project depending on its location within or
-outside the package's directory structure.
+The data may be duplicated in some instances in `src/data` and other sub-folders in `src`. This is for teaching purposes 
+for an activity that requires a different copy or location.
 
 ### External examples using similar paralympics data
 

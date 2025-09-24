@@ -1,5 +1,7 @@
 # Week 4 Code quality: linting, docstrings, PEP8/257, use of functions
 
+_*Theme: Working with code for applications*_
+
 ## Introduction
 
 The activities this week focus on actions that can be taken to improve the quality of your code. That is, actions that

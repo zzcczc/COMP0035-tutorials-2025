@@ -1,4 +1,6 @@
-# Week 3 coding activities: instructions
+# Week 3 coding activities
+
+_*Themes: Designing applications*_ & _*Using Python to work with data*_
 
 ## Setup
 

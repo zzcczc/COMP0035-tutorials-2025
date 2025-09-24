@@ -1,5 +1,7 @@
 # Activity 1: Python project structure
 
+_*Theme: Working with code for applications*_
+
 Before you start make sure you have created a GitHub account and have installed Python, git and a Python IDE e.g. Visual
 Studio Code or PyCharm Professional. If you have not, go to [computer setup](1-06-opt-computer_setup.md).
 

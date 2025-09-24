@@ -1,5 +1,7 @@
 # Week 5 coding activities: Working with classes and databases
 
+_*Theme: Using Python to work with data*_
+
 This topic relates to coursework 2. It is not needed for coursework 1.
 
 This week introduces concepts related to classes and how these may be used when working with data from databases. You

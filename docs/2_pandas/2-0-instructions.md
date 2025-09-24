@@ -1,5 +1,7 @@
 # Coding activities 2: Working with Python pandas
 
+_*Theme: Using Python to work with data*_
+
 ## Introduction
 
 This set of activities use Python pandas to describe, explore and prepare data from one or more raw data files (data
