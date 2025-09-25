@@ -1,7 +1,6 @@
 # 7. Generative AI in application design
 
-Note: this activity was created in September 2024. If you repeat the activity now, you will likely have different
-results.
+Note: this activity was created 25/09/25. Repeating the activity will likely give a different result.
 
 ## Tools used
 
