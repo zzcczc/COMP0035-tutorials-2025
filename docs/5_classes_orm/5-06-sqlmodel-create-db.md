@@ -32,13 +32,26 @@ engine = create_engine("sqlite:///hero.db")
 SQLModel.metadata.create_all(engine)
 ```
 
+## Code files and structure
+
+Typically, you will see model classes saved in a file called models.py.
+
+The code to create the database using these models is likely in another file.
+
+And the code to run the app would call the function to create the database.
+
+This is shown in
+the [SQLModel tutorial here](https://sqlmodel.tiangolo.com/tutorial/code-structure/#single-module-for-models).
+
 ## Activity: Create the database
 
-1. Make a copy of [starter_create_db_sqlmodel.py](../../src/activities/starter/starter_create_db_sqlmodel.py) which
-   has classes to define the paralympics database consistent with
-   what was created in week 3.
-2. Add code to use the classes to create a database name `paralympics_sqlmodel.db` (you probably already have one called
-   `paralympics.db`)
+Write code in `models.py`, `database.py` and `app.py` to create the database.
+
+You can copy the model code
+from [starter_create_db_sqlmodel.py](../../src/activities/starter/starter_create_db_sqlmodel.py).
+
+Use your code to create the database. Use a new database name `paralympics_sqlmodel.db` as you probably already have one
+called `paralympics.db`.
 
 ## Reflection on using copilot to generate the SQLModels from a sql schema
 
@@ -81,16 +94,8 @@ class Team(SQLModel, table=True):
         CheckConstraint("region IN ('Asia', 'Europe', 'Africa', 'America', 'Oceania')")
     )
 ```
-- Foreign key constraints were also not recognised. This is a similar issue. To resolve it you need to define the field
-  as a sqlalchemy.Column() with an argument for the constraint: 
-```python
-from sqlalchemy import Column, Integer, ForeignKey
 
-sa_column=Column(
-            Integer,
-            ForeignKey("country.id", onupdate="CASCADE", ondelete="SET NULL"),
-            nullable=True
-        )
-```
+- Foreign key constraints were also not recognised. These are in
+  the [SQLModel documentation](https://sqlmodel.tiangolo.com/tutorial/relationship-attributes/cascade-delete-relationships/#ondelete-options)
 
 [Next activity](5-07-sqlmodel-add-data.md)

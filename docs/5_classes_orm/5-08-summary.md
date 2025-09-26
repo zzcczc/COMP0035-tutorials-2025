@@ -33,3 +33,5 @@ The key points to understand:
 
 - Python classes, Python data classes, pydantic model classes vary in their syntax which could seem confusing. Focus on
   learning SQLModel syntax.
+
+Note that for coursework 2 you are welcome to use SQLAlchemy instead of SQLModel if you prefer.

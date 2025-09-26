@@ -143,8 +143,18 @@ _*Theme: Designing applications*_
 5. [Draw wireframes](6-05-wireframes.md)
 
 ### Week 7 Application design
+
 _*Theme: Designing applications*_
 
+[Instructions](docs/7_app_design/7-0-instructions.md) are in the docs/7_app_design folder:
+
+1. [Introduction to application design](docs/7_app_design/7-01-introduction.md)
+2. [Examples of application designs](docs/7_app_design/7-02-diagram-examples.md)
+3. [Identify classes](docs/7_app_design/7-03-identify-classes.md)
+4. [Draw the application design diagram](docs/7_app_design/7-04-draw-design.md)
+5. [Review the design](docs/7_app_design/7-05-review-design.md)
+6. [Draw the application design for the paralympics prediction web app](docs/7_app_design/7-06-design-medals.md)
+7. [Results of using genAI for the application design](docs/7_app_design/7-07-genAI.md)
 
 ### Week 8 Classes and database 2
 

@@ -1,4 +1,4 @@
-# COMP0035 Tutorial 7: Application design
+# Activities 7: Application design
 
 _*Theme: Designing applications*_
 

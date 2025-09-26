@@ -87,7 +87,9 @@ is saved in the database, and then it will finally have a value that the databas
 
 ## Activity: Write SQLModel classes
 
-1. Create a copy of [starter_sqlmodel.py](../../src/activities/starter/starter_sqlmodel.py)
+1. Create a copy of [starter_sqlmodel.py](../../src/activities/starter/starter_sqlmodel.py) and name it `models.py`. The
+   name is not crucial but is a name you will see used often when you start to create web apps using the SQLModel
+   classes.
 2. Write SQLModel classes for the following tables:
 
 ```mermaid
