@@ -33,5 +33,15 @@ Some SQLModel specific considerations:
     - [Deal with Common Types of SQLAlchemy Exceptions for Running SQL Queries in Python](https://plainenglish.io/blog/deal-with-common-types-of-sqlalchemy-exceptions-for-running-sql-queries-in-python-9ec8db)
     - [Pydantic Error Handling](https://docs.pydantic.dev/latest/errors/errors/)
 
+
+## Activity: Add exception handling
+
+There are no tutor solutions to this activity.
+
+Uncomment and run each of the functions in main in [error_code.py](../../src/activities/starter/db_wk8/error_code.py).
+
+Identify the exceptions raised then try to handle them.
+
+### Logging errors
 A complementary technique to exception handling is to log errors as well to help with debugging. This is not taught
 until COMP0034 though you may want to investigate if you have time.

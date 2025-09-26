@@ -46,7 +46,8 @@ Optional:
 
 _*Theme: Using Python to work with data*_
 
-This week's activities are more than you can complete in a week. There are less in weeks 4 and 5 so you could delay some.
+This week's activities are more than you can complete in a week. There are less in weeks 4 and 5 so you could delay
+some.
 
 [Week 2 instructions](docs/2_pandas/2-0-instructions.md) are in the docs/2_pandas folder:
 
@@ -73,7 +74,8 @@ This week's activities are more than you can complete in a week. There are less 
 
 _*Themes: Designing applications*_ & _*Using Python to work with data*_
 
-This week's activities are more than you can complete in a week. There are less in weeks 4 and 5 so you could delay some.
+This week's activities are more than you can complete in a week. There are less in weeks 4 and 5 so you could delay
+some.
 
 [Activity instructions](docs/3_database/3-0-instructions.md) are in the docs/3_database folder:
 
@@ -92,8 +94,9 @@ This week's activities are more than you can complete in a week. There are less 
 13. [SQL INSERT and SELECT intro](docs/3_database/3-12-sql-add-data.md)
 14. [Add data to tables with no FK](docs/3_database/3-13-insert-no-fk.md)
 15. [Select data](docs/3_database/3-14-select-query.md)
-16. [Add data to tables with an FK](docs/3_database/3-15-insert-with-fk.md) 
-17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off between database normalisation and query design
+16. [Add data to tables with an FK](docs/3_database/3-15-insert-with-fk.md)
+17. [Normalisation and application code](docs/3_database/3-17-normalisation-tradeoff.md)- A brief intro to the trade-off
+    between database normalisation and query design
 
 ### Week 4 Code quality: linting, docstrings, exception handling, project structure and imports
 
@@ -174,6 +177,14 @@ _*Theme: Using Python to work with data*_
 
 _*Theme: Working with code for applications*_
 
+[Instructions](docs/9_testing/9-0-instructions.md) and activities can be found in the docs/9_testing folder:
+
+1. [Introduction to testing and conventions](docs/9_testing/9-01-introduction.md)
+2. [Testing with pytest](docs/9_testing/9-02-pytest-tests.md)
+3. [Pytest fixtures](docs/9_testing/9-03-fixtures.md)
+4. [Reporting test coverage](docs/9_testing/9-04-coverage.md)
+5. [Running tests with GitHub Actions](docs/9_testing/9-05-ci-github.md)
+6. [Further information](docs/9_testing/9-06-further.md)
 
 ### Week 10 No new activities
 
@@ -184,7 +195,7 @@ Tutorial reserved for final coursework support
 Most activities use paralympics data that was originally compiled from
 the [IPC website](https://www.paralympic.org/paralympic-games) in 2021.
 
-The data may be duplicated in some instances in `src/data` and other sub-folders in `src`. This is for teaching purposes 
+The data may be duplicated in some instances in `src/data` and other sub-folders in `src`. This is for teaching purposes
 for an activity that requires a different copy or location.
 
 ### External examples using similar paralympics data

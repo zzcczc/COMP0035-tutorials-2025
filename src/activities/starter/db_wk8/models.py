@@ -35,7 +35,7 @@ class Enrollment(SQLModel, table=True):
     course_id: int | None = Field(foreign_key="course.course_id", primary_key=True, ondelete="CASCADE")
     teacher_id: int | None = Field(foreign_key="teacher.teacher_id", primary_key=True, nullable=True,
                                       ondelete="SET NULL")
-    teacher: Optional[Teacher] = Relationship(back_populates="enrollments")
-    course: Optional[Course] = Relationship(back_populates="enrollments")
-    student: Optional[Student] = Relationship(back_populates="enrollments")
+    teacher: Teacher | None = Relationship(back_populates="enrollments")
+    course: Course | None = Relationship(back_populates="enrollments")
+    student: Student | None = Relationship(back_populates="enrollments")
 
