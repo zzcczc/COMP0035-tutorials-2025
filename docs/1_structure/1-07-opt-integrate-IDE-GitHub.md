@@ -1,4 +1,6 @@
-# Appendix 2: Integrate your IDE with your GitHub account (optional)
+# Activity 7 (optional): Integrate your IDE with your GitHub account
+
+[Skip to next](1-08-opt-copilot-ide.md) if you have already completed this or do not want to integrate it.
 
 You will be creating and editing files in your IDE and so you need to enable it to work with GitHub to manage your code.
 
