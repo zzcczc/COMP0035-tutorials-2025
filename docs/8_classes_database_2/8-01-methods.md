@@ -16,6 +16,7 @@ class ParalympicEvent:
     def __init__(self, name, sport, classification):
         self.name = name
         self.sport = sport
+        self.classification = classification
         self.athletes = []
 
     def register_athlete(self, athlete_name):
