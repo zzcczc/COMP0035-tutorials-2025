@@ -163,15 +163,15 @@ _*Theme: Designing applications*_
 
 _*Theme: Using Python to work with data*_
 
-[Instructions](docs/8_classes_database_2/8-0-instructions.md) are in the docs/8_classes_database_2 folder:
+[Instructions](docs/future_weeks/8_classes_database_2/8-0-instructions.md) are in the docs/8_classes_database_2 folder:
 
-1. [Adding methods to classes](docs/8_classes_database_2/8-01-methods.md)
-2. [Add data using SQLModel](docs/8_classes_database_2/8-02-insert.md)
-3. [Add data to tables with relationships](docs/8_classes_database_2/8-03-insert-multiple.md)
-4. [Selecting data from a database with SQLModel](docs/8_classes_database_2/8-04-select.md)
-5. [Update data in a database with SQLModel](docs/8_classes_database_2/8-05-update.md)
-6. [Delete data from a database with SQLModel](docs/8_classes_database_2/8-06-delete.md)
-7. [Reminder: code quality still matters!](docs/8_classes_database_2/8-07-quality.md)
+1. [Adding methods to classes](docs/future_weeks/8_classes_database_2/8-01-methods.md)
+2. [Add data using SQLModel](docs/future_weeks/8_classes_database_2/8-02-insert.md)
+3. [Add data to tables with relationships](docs/future_weeks/8_classes_database_2/8-03-insert-multiple.md)
+4. [Selecting data from a database with SQLModel](docs/future_weeks/8_classes_database_2/8-04-select.md)
+5. [Update data in a database with SQLModel](docs/future_weeks/8_classes_database_2/8-05-update.md)
+6. [Delete data from a database with SQLModel](docs/future_weeks/8_classes_database_2/8-06-delete.md)
+7. [Reminder: code quality still matters!](docs/future_weeks/8_classes_database_2/8-07-quality.md)
 
 ### Week 9 Unit testing, CI and coverage
 
