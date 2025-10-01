@@ -4,8 +4,7 @@ from sqlmodel import Field, Relationship, SQLModel
 
 class Location(SQLModel, table=True):
     id: int | None = Field(default=None, primary_key=True)
-    room_number: int
-    building: str | None = Field(default=None, nullable=True)
+    room: str
 
     courses: list["Course"] = Relationship(back_populates="location")
 
@@ -29,8 +28,8 @@ class Teacher(SQLModel, table=True):
     teacher_name: str
     teacher_email: str
 
-    courses: list["Course"] = Relationship(back_populates="teacher", link_model=Enrollment)
-    students: list["Student"] = Relationship(back_populates="teacher", link_model=Student)
+    courses: list["Course"] = Relationship(back_populates="teachers", link_model=Enrollment)
+    students: list["Student"] = Relationship(back_populates="teachers", link_model=Enrollment)
 
 
 class Course(SQLModel, table=True):
