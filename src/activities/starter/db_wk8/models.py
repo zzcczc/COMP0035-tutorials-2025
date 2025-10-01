@@ -4,7 +4,7 @@ from sqlmodel import Field, Relationship, SQLModel
 
 class Location(SQLModel, table=True):
     id: int | None = Field(default=None, primary_key=True)
-    room_number: int = Field(default=None, primary_key=True)
+    room_number: int
     building: str | None = Field(default=None, nullable=True)
 
     courses: list["Course"] = Relationship(back_populates="location")
