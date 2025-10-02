@@ -113,4 +113,4 @@ Edit the starter files to add a teacher to the database.
 The SQLModel documentation examples add this method to `app.py`. I added it to `database.py`. You choose where you think
 is most appropriate.
 
-[Next activity](../future_weeks/8_classes_database_2/8-04-insert-multiple.md)
+[Next activity](8-04-insert-multiple.md)

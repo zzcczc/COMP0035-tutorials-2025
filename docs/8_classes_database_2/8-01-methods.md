@@ -155,4 +155,4 @@ SQLModel inherits from Pydantic's BaseModel giving:
 2. Try adding a `__repr__` and a method of your choice to the class.
 3. Create an instance of the class then call the methods on that object.
 
-[Next activity](../future_weeks/8_classes_database_2/8-02-relationships.md)
+[Next activity](8-02-relationships.md)
