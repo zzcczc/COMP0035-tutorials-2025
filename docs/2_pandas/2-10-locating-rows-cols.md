@@ -1,4 +1,4 @@
-# Activity 10: Referencing specific columns and/or rows in a DataFrame
+# 10. Referencing specific columns and/or rows in a DataFrame
 
 Many of the following activities work with specific columns and rows.
 

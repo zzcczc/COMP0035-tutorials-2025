@@ -1,4 +1,4 @@
-# 9. Identifying foreign key constraints
+# 8. Identifying foreign key constraints
 
 ## ON UPDATE and ON DELETE actions
 

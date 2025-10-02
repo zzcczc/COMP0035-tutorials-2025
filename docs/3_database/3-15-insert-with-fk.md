@@ -1,4 +1,4 @@
-# 16. Insert data to tables with foreign keys
+# 15. Insert data to tables with foreign keys
 
 In the previous activities you used INSERT to add data to the student, teacher and course tables; and SELECT to retrieve
 values from the data that was added.

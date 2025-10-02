@@ -1,4 +1,4 @@
-# 13. Introduction to SQL queries to add data to the database
+# 12. Introduction to SQL queries to add data to the database
 
 So far you have used SQL statements to create tables.
 

@@ -1,4 +1,4 @@
-# Tutorial 2: Working with Pandas
+# 1. Working with Pandas
 
 Read and complete actions before moving to the next activity.
 

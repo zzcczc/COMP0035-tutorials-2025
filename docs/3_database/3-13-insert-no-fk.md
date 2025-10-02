@@ -1,4 +1,4 @@
-# 14. INSERT data to a table that does not have a foreign key
+# 13. INSERT data to a table that does not have a foreign key
 
 ## INSERT syntax
 

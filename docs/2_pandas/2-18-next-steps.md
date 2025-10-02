@@ -1,4 +1,4 @@
-# Activity 2.18: Next steps
+# 18. Next steps
 
 1. **Further practice using this repo**: Apply the principles to the 'medal_standings' dataframe, e.g.:
 

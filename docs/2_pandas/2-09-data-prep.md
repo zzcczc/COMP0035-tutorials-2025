@@ -1,4 +1,4 @@
-# Activity 2.9: Data preparation
+# 9. Data preparation
 
 The following activities move on from describing the dataframe and exploring its contents, to changing its contents to
 suit our purposes. These activities are often referred to as 'data preparation' or 'data cleaning'.

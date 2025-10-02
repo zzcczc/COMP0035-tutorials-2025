@@ -1,4 +1,4 @@
-# Activity 2.5: Introduction to charts with pandas.DataFrame.plot()
+# 5. Introduction to charts with pandas.DataFrame.plot()
 
 The aim during the data exploration phase is to get a better understanding of the data to decide if what you have is
 largely free from data quality issues and that it suits the needs of your project.

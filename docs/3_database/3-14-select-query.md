@@ -1,4 +1,4 @@
-# 13. Introduction to SQL queries
+# 14. Introduction to SQL queries
 
 ## SQL syntax
 

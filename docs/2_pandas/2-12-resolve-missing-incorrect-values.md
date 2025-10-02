@@ -1,4 +1,4 @@
-# Activity 2.11: Resolve missing or incorrect values
+# 12. Resolve missing or incorrect values
 
 This activity addresses some of the data quality issues identified in the exploration stage:
 

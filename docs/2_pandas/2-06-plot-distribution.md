@@ -1,4 +1,4 @@
-# Activity 2.6: Explore distributions of values
+# 6. Explore distributions of values
 
 It can be useful to understand the range of values, and the distribution of those values, for the numerical columns in
 your data.

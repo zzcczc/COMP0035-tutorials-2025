@@ -1,4 +1,4 @@
-# Activity 2.10: Changing datatypes
+# 13. Changing datatypes
 
 The datatypes in the `events_csv_df` dataframe were output in activity 3; some columns have been removed leaving:
 

@@ -1,4 +1,4 @@
-# Activity 2.17: Using the prepared data
+# 17. Using the prepared data
 
 The purpose of this activity to see whether it looks like the prepared data would suit the purposes.
 

@@ -1,4 +1,4 @@
-# 7. Logical design activity
+# 9. Logical design activity
 
 The previous activities covered a lot of theory which could make this process some complicated. However, applying the
 principles of normalisation for this module does require you to explicitly prove each stage of the normalisation.

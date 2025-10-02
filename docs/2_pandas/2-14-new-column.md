@@ -1,4 +1,4 @@
-# Activity 2.9: Adding new columns
+# 14. Adding new columns
 
 The next two activities add data to the existing data:
 

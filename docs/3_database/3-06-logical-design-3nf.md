@@ -1,4 +1,4 @@
-# 5. Logical database design to 3NF
+# 6. Logical database design to 3NF
 
 ## Third normal form (3NF)
 

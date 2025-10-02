@@ -1,4 +1,4 @@
-# Activity 2.8: Identifying values in categorical data
+# 8. Identifying values in categorical data
 
 Categorical variables are those where the data can be divided into categories, or groups. For example: race, gender, age
 group, and educational level.

@@ -1,4 +1,4 @@
-# Activity 2.4: Identify missing values
+# 4. Identify missing values
 
 Missing values or missing data are those values that are not present in the data set.
 

@@ -1,4 +1,4 @@
-# Activity 2.3: Use pandas to describe the contents of a DataFrame
+# 3. Use pandas to describe the contents of a DataFrame
 
 In this activity you will use some of the pandas functions to describe the contents of the DataFrames:
 
