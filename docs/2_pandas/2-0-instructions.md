@@ -68,19 +68,10 @@ If missing, install these using `pip` e.g.  `pip install pandas openpyxl`
 ## Complete the activities
 
 This set of activities use Python pandas to describe, explore and prepare data from one or more raw data files (data
-set).
+set). The activities also introduce you to writing code in a way that is potentially re-usable in a project.
 
 The activities in weeks 2, 3 and 4 are not evenly balanced, with more in week 2 and less in week 4. If you can't
 complete this set of activities within the week, continue in a later week.
-
-You are asked to write code in a way that is potentially reusable in an application, including:
-
-- creating Python modules
-- using relative filepaths to access data files
-- creating Python functions (or classes) rather than a sequence of commands in a script
-
-Writing code in this way may seem unnecessary at this stage; however you need to do this for the coursework so start
-getting into the habit now. The following activities cover this while covering the topic of pandas DataFrame.
 
 1. [Create a package and module](2-01-python-structure)
 2. [Open .csv and .xlsx files and create a DataFrame](2-02-pandas-df)
