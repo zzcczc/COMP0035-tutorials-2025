@@ -125,7 +125,7 @@ _*Theme: Using Python to work with data*_
 [Week 5 instructions](docs/5_classes_orm/5-0-instructions.md)are in the docs/5_classes_orm folder:
 
 1. [Python classes](docs/5_classes_orm/5-01-class.md)
-2. [Python data classes](docs/5_classes_orm/5-02-data-class.md)
+2. [Python data classes](docs/5_classes_orm/5-02-data-class.md) TODO: remove this.
 3. [Class relationships - inheritance, composition](docs/5_classes_orm/5-03-inheritance-composition.md)
 4. [Pydantic](docs/5_classes_orm/5-04-pydantic.md)
 5. [ORM and SQLModel](docs/5_classes_orm/5-05-orm-sqlmodel.md)
