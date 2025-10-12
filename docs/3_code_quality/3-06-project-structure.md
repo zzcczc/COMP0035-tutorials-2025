@@ -89,4 +89,4 @@ There are examples of Python project structures on these sites:
 - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/writing/structure/#sample-repository)
 - [Real Python](https://realpython.com/python-application-layouts/)
 
-[Next activity](3-06-imports.md)
+[Next activity](3-07-imports.md)

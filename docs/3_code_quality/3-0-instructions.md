@@ -26,18 +26,16 @@ Note that the quality of your code is considered throughout the coursework in th
 
 ## Activities
 
-The activities this week are shorter. Use remaining time to complete any outstanding activities from weeks 2 and 3.
-
-This week's activities all contribute towards improving the structure and quality of the code, rather than the
-functionality. Code quality is always considered in the grading of code in COMP0035 and COMP0034 coursework.
+The activities this week are shorter. Use remaining time to complete any outstanding activities from week 2.
 
 1. [Docstring](3-01-docstrings.md)
-2. [Linting and auto-formatting](3-02-linting.md)
-3. [GitHub Actions lint report](3-03-github-actions.md)
-4. [(Optional) Static analysis: beyond linting](3-04-static-analysis.md)
-5. [Project structure](3-05-project-structure.md)
-6. [Imports](3-06-imports.md)
-7. [Error handling](3-07-error-handling.md)
+2. [Linting](3-02-linting.md)
+3. [Auto-formatting](3-03-formatter.md)
+3. [GitHub Actions lint report](3-04-github-actions.md)
+4. [(Optional) Static analysis: beyond linting](3-05-static-analysis.md)
+5. [Project structure](3-06-project-structure.md)
+6. [Imports](3-07-imports.md)
+7. [Error handling](3-08-error-handling.md)
 
 ## Further reading
 

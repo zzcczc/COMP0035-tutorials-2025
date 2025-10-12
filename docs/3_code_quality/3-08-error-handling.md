@@ -1,5 +1,9 @@
 # 7. Error handling
 
+NB This activity mentions database connections. Database connections are covered in week 4. This should not prevent you
+completing this activity as any database specific code is given to you within this activity and the associated starter
+code files.
+
 ## Introduction
 
 Errors and exceptions can lead to unexpected behaviour, or even cause an app or script to stop running.

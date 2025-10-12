@@ -140,4 +140,4 @@ submissions.
 - If not using `src/my_package` style layout, read
   the [guidance for setuptools package discovery](https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html).
 
-[Next activity](3-07-error-handling.md)
+[Next activity](3-08-error-handling.md)

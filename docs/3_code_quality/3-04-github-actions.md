@@ -1,6 +1,6 @@
 # 3. (Optional) GitHub Actions workflow to automate linting
 
-**This activity is optional**, you can skip to the [next activity](3-04-static-analysis.md).
+**This activity is optional**, you can skip to the [next activity](3-05-static-analysis.md).
 
 [GitHub Actions](https://docs.github.com/en/actions) is a GitHub feature that allows you run automated worklflows on
 your repository code using a virtual server within the GitHub ecosystem. For example, a workflow that runs a linter or
@@ -72,4 +72,4 @@ GitHub provides templates for different starter templates, there is often one th
 This activity gave you a basic linting workflow. There are many options you can configure and more steps that can be
 added. Refer to the [GitHub Actions documentation](https://docs.github.com/en/actions/how-tos) for more information.
 
-[Next activity](3-04-static-analysis.md)
+[Next activity](3-05-static-analysis.md)

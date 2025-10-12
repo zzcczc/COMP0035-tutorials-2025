@@ -78,12 +78,13 @@ _*Theme: Working with code for applications*_
 [Week 3 instructions](docs/3_code_quality/3-0-instructions.md) are in the docs/3_code_quality folder:
 
 1. [Docstring](docs/3_code_quality/3-01-docstrings.md)
-2. [Linting and auto-formatting](docs/3_code_quality/3-02-linting.md)
-3. [GitHub Actions lint report](docs/3_code_quality/3-03-github-actions.md)
-4. [(Optional) Static analysis: beyond linting](docs/3_code_quality/3-04-static-analysis.md)
-5. [Project structure](docs/3_code_quality/3-05-project-structure.md)
-6. [Imports](docs/3_code_quality/3-06-imports.md)
-7. [Error handling](docs/3_code_quality/3-07-error-handling.md)
+2. [Linting](docs/3_code_quality/3-02-linting.md)
+3. [Auto-formatting](docs/3_code_quality/3-03-formatter.md)
+4. [GitHub Actions lint report](docs/3_code_quality/3-04-github-actions.md)
+5. [(Optional) Static analysis: beyond linting](docs/3_code_quality/3-05-static-analysis.md)
+6. [Project structure](docs/3_code_quality/3-06-project-structure.md)
+7. [Imports](docs/3_code_quality/3-07-imports.md)
+8. [Error handling](docs/3_code_quality/3-08-error-handling.md)
 
 ### Week 4 Database design; sqlite3
 
