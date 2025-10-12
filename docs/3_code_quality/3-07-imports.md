@@ -1,4 +1,4 @@
-# 6. Importing Python packages/libraries
+# 7. Importing Python packages/libraries
 
 You are already aware that to use Python packages in your code you import them. This activity covers guidance on how to
 structure the imports, including how to import your own application packages and modules.

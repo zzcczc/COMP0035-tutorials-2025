@@ -1,4 +1,4 @@
-## Fixing issues with a formatter
+# 3. Fixing issues with a formatter
 
 The purpose of using is a linter is to identify the issues. The benefit however is only achieved once you fix the
 identified issues. Running a linter is the easy part, the challenge is to then fix the identified issues.

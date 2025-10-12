@@ -1,8 +1,6 @@
-# 3. (Optional) GitHub Actions workflow to automate linting
+# 4. GitHub Actions workflow to automate linting
 
-**This activity is optional**, you can skip to the [next activity](3-05-static-analysis.md).
-
-[GitHub Actions](https://docs.github.com/en/actions) is a GitHub feature that allows you run automated worklflows on
+[GitHub Actions](https://docs.github.com/en/actions) is a GitHub feature that allows you run automated workflows on
 your repository code using a virtual server within the GitHub ecosystem. For example, a workflow that runs a linter or
 static analyser and reports the results every time you push your code changes to GitHub.
 
@@ -53,7 +51,7 @@ GitHub provides templates for different starter templates, there is often one th
 5. Select 'Commit changes' again on the next window.
 
    ![Select 'Commit changes' again](../img/ghs-commit.png)
-6. The workflow .yml is now added to a .github folder within your project files. Adding this file and commiting it in
+6. The workflow `.yml` is now added to a `.github` folder within your project files. Adding this file and commiting it in
    the last step caused a 'push' on the repo so it immediately runs the workflow. Select Actions from the menu at the
    top. The workflow is running, the status can be amber (in the screenshot) which means it is running, green it ran
    successfully, or red it ran but issues were found.
