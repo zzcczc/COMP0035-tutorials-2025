@@ -168,4 +168,4 @@ Run commands in the terminal virtual environment.
 5. Run a linter again: `flake8 src/activities/starter/cq_code_to_reformat.py`. Fewer issues should be reported.
 6. Open the file again and see the changes that have been made.
 
-[Next activity](4-03-github-actions.md)
+[Next activity](3-03-github-actions.md)

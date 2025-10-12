@@ -47,4 +47,4 @@ Conversely, gen-AI can also be used to generate docstrings from code in your IDE
 3. Go to the `describe()` function and follow the guidance to copilot (or other) complete the code from the docstring.
 
 
-[Next activity](4-02-linting.md)
+[Next activity](3-02-linting.md)
