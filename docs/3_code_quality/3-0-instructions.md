@@ -3,6 +3,7 @@
 _*Theme: Working with code for applications*_
 
 ## Pre-requisites
+
 ### 1. Update the forked tutorials repository
 
 Login to GitHub and navigate to your forked copy of
@@ -27,7 +28,6 @@ following.
 
 There are other methods, look in the Help for either PyCharm or VSCode.
 
-
 ## Activities
 
 The activities this week focus on actions that can be taken to improve the quality of your code. That is, actions that
@@ -46,11 +46,15 @@ Robert Martin's book Clean Code describes practices that help a programmer to wr
   Thomas)
 - Document your code
 
-The activities this week concentrate practical steps you can take in your work that help to achieve this. 
+The activities this week concentrate practical steps you can take in your work that help to achieve this.
 
 Note that the quality of your code is considered throughout the coursework in this module and in COMP0034.
 
 The activities this week are shorter. Use remaining time to complete any outstanding activities from week 2.
+
+UPDATE: If you are using VSCode to open markdown files, please refer
+to [their documentation](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview) for how to view the
+rendered page rather than the raw markdown.
 
 1. [Docstring](3-01-docstrings.md)
 2. [Linting](3-02-linting.md)
