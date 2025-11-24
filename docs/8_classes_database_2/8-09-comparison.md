@@ -118,8 +118,7 @@ Try to write solutions to each of the following using both versions of the datab
 
 Use SQLModel to write the queries. Please try at least 1 select and 1 update query.
 
-Reflect on the trade-off of query complexity and data integrity.
-
+Reflect on the implications for query complexity and data integrity.
 
 1. List all Paralympics (games) with their year and type.
 2. List all winter Paralympics (games) and include: host, year, number of participants.
@@ -133,5 +132,6 @@ Reflect on the trade-off of query complexity and data integrity.
 10. Find all the Paralympics that have competitors who are 'Amputees'
 11. **Update** all instances of the disability 'Les Autres' to 'Other'
 
-
-
+NB: Normalisation aims to reduce redundancy and increase data integrity. Queries in this exercise may seem quicker and
+simpler using the database that has not been normalised, however, using a database that is not normalised is
+**not recommended**, so please do not do this in your coursework.
