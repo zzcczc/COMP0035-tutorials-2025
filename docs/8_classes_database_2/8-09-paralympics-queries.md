@@ -1,8 +1,6 @@
 # Optional: Paralympics database queries with SQLModel
 
-**Activity updated 27/11/25**
-
-In the tutorials we will go through some of these queries by way of demonstrating the use of SQL Model.
+**Activity updated 27/11/25** In the tutorials we will demonstrate the use of SQLModel for a few of the queries.
 
 ## Activity 1: SQLModel queries for the paralympics database
 
@@ -41,11 +39,11 @@ The queries are:
 
 The database structure is as follows:
 
-
+<img alt="erd-paralympics-wk8.png" src="../img/erd-paralympics-wk8.png" width="50%"/>
 
 ## Activity 2: Differences between more/less normalised databases
 
-This activity uses an extreme version of the paralympics database that has not been normalised to allow you to 
+This activity uses an extreme version of the paralympics database that has not been normalised to allow you to
 experience the differences in query complexity.
 
 Using a database that has not been normalised **not recommended**, please do not do this in your coursework.
@@ -53,7 +51,7 @@ Normalisation is important to reduce redundancy and increase data integrity.
 
 The database structure is as follows:
 
-
+<img alt="erd unnormalised database" src="../img/erd-unnormalised-wk8.png" width="30%"/>
 
 ### Queries
 
